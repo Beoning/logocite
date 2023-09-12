@@ -1,5 +1,6 @@
 import FirstBlock from './components/FirstBlock/FirstBlock';
 import Header from './components/Header/Header';
+import SecondBlock from './components/SecondBlock/SecondBlock';
 
 const Page = () => {
   return (
@@ -7,7 +8,7 @@ const Page = () => {
       <Header />
       <main>
         <FirstBlock />
-        <section>2</section>
+        <SecondBlock />
         <section>3</section>
         <section>4</section>
         <section>5</section>

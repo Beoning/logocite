@@ -5,11 +5,18 @@ import Image from 'next/image';
 const Header = () => {
   return (
     <header className={style.header}>
-      <Image src={logo} alt="Логотип" width={100} height={100} />
+      <a href="#">
+        <Image src={logo} alt="Логотип" width={100} height={100} />
+      </a>
+
       <nav>
-        <a href="">О Нас</a>
+        <div>
+          <a href="#about">О Нас</a>
+          <a href="#services">Услуги</a>
+          <a href="#contacts">Контакты</a>
+        </div>
+        <a href="tel:+79526676161">+7 (952) 667-61-61</a>
       </nav>
-      <a href="tel:+79531613787">89531613787</a>
     </header>
   );
 };

@@ -1,4 +1,5 @@
 import FirstBlock from './components/FirstBlock/FirstBlock';
+import FourthBlock from './components/FourthBlock/FourthBlock';
 import Header from './components/Header/Header';
 import SecondBlock from './components/SecondBlock/SecondBlock';
 import ThirdBlock from './components/ThirdBlock/ThirdBlock';
@@ -11,7 +12,7 @@ const Page = () => {
         <FirstBlock />
         <SecondBlock />
         <ThirdBlock />
-        <section>4</section>
+        <FourthBlock />
         <section>5</section>
         <section>6</section>
         <section>7</section>

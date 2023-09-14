@@ -1,0 +1,61 @@
+.block {
+  height: 736px;
+  background-image: url(../../../../public/formkid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 20%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 54px;
+  }
+
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  input {
+    outline: none;
+    border: none;
+    width: 674px;
+    height: 66px;
+    padding-left: 28px;
+    font-size: 22px;
+    border-radius: 20px;
+    background: #e1e1e1;
+    margin-top: 20px;
+  }
+
+  button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 22px 257px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 10px;
+    background: #d42d31;
+    margin-top: 54px;
+
+    &:hover {
+      background: #d44042;
+    }
+
+    &:active {
+      background: #d5181c;
+    }
+  }
+}

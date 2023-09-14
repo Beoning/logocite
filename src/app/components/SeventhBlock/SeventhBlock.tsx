@@ -14,7 +14,7 @@ const SeventhBlock = () => {
       </p>
       <section>
         <div className={style.info}>
-          <Image src={kidsOne} alt="Дети на уроке" width={543} height={294} />
+          <Image src={kidsOne} alt="Дети на уроке" width={500} height={294} />
           <div>
             <h3>Современные Методы</h3>
             <p>
@@ -26,7 +26,7 @@ const SeventhBlock = () => {
           </div>
         </div>
         <div className={style.info}>
-          <Image src={kidsTwo} alt="Дети радуются" width={543} height={294} />
+          <Image src={kidsTwo} alt="Дети радуются" width={500} height={294} />
           <div>
             <h3>Современное Пространство</h3>
             <p>

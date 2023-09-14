@@ -18,7 +18,7 @@
       align-items: center;
       gap: 26px;
       border-radius: 20px;
-      background-color: rgba(255, 0, 0, 0.5);
+      background: #d42d31;
 
       a {
         text-decoration: none;
@@ -28,9 +28,8 @@
 
     & > a {
       text-decoration: none;
-      margin-top: 5px;
-      color: rgba(255, 0, 6, 0.8);
-      font-size: 20px;
+      color: #d42d31;
+      font-size: 26px;
       font-weight: 700;
     }
   }

@@ -4,7 +4,7 @@ import metro from '../../../../public/metro.svg';
 
 const TenthBlock = () => {
   return (
-    <section className={style.block}>
+    <section className={style.block} id="contacts">
       <h2>ЛОГОПЕДЫ из CHICAGA</h2>
       <p>Наши уютные мастерские находятся в 3-х минутах от метро</p>
       <section className={style.info}>

@@ -8,7 +8,7 @@ import veronica from '../../../../public/veronica.png';
 
 const FourthBlock = () => {
   return (
-    <section className={style.block}>
+    <section className={style.block} id="about">
       <section>
         <div>
           <Image

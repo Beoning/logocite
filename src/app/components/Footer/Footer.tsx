@@ -21,6 +21,9 @@ const Footer = () => {
           <Image src={vk} alt="" width={40} height={40} />
         </a>
       </section>
+      <span>
+        Made by <a href="https://vk.com/beoning">@Beoning</a>
+      </span>
     </footer>
   );
 };

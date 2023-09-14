@@ -32,12 +32,12 @@
 }
 
 .image {
-  &:nth-child(3) {
+  &:nth-child(2) {
     @include image('../../../../public/kid.png');
   }
 
-  &:nth-child(2) {
-    @include image('../../../../public/girl.png');
+  &:nth-child(3) {
+    @include image('../../../../public/kidsinschool.jpg');
   }
 
   &:nth-child(6) {

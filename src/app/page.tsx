@@ -1,7 +1,10 @@
+import FifthBlock from './components/FifthBlock/FifthBlock';
 import FirstBlock from './components/FirstBlock/FirstBlock';
 import FourthBlock from './components/FourthBlock/FourthBlock';
 import Header from './components/Header/Header';
 import SecondBlock from './components/SecondBlock/SecondBlock';
+import SeventhBlock from './components/SeventhBlock/SeventhBlock';
+import SixthBlock from './components/SixthBlock/SixthBlock';
 import ThirdBlock from './components/ThirdBlock/ThirdBlock';
 
 const Page = () => {
@@ -13,13 +16,13 @@ const Page = () => {
         <SecondBlock />
         <ThirdBlock />
         <FourthBlock />
-        <section>5</section>
-        <section>6</section>
-        <section>7</section>
-        <section>8</section>
-        <section>9</section>
+        <FifthBlock />
+        <SixthBlock />
+        <SeventhBlock />
+        <section></section>
+        <section></section>
       </main>
-      <footer>10</footer>
+      <footer></footer>
     </>
   );
 };

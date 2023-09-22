@@ -1,6 +1,6 @@
-import style from './SixthBlock.module.scss';
+import style from './SignTo.module.scss';
 
-const SixthBlock = () => {
+const SignTo = () => {
   return (
     <section className={style.block}>
       <h3>Запишись на БЕСПЛАТНОЕ занятие с логопедом</h3>
@@ -9,4 +9,4 @@ const SixthBlock = () => {
   );
 };
 
-export default SixthBlock;
+export default SignTo;

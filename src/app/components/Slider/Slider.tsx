@@ -1,6 +1,6 @@
 'use client';
 
-import style from './FifthBlock.module.scss';
+import style from './Slider.module.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -17,7 +17,7 @@ import Slide from './Slide/Slide';
 
 const images = [first, second, third, fourth, fifth, sixth, seventh];
 
-const FifthBlock = () => {
+const Slider = () => {
   return (
     <section className={style.block} id="services">
       <h2>Мы предлагаем следующие виды услуг</h2>
@@ -51,4 +51,4 @@ const FifthBlock = () => {
   );
 };
 
-export default FifthBlock;
+export default Slider;

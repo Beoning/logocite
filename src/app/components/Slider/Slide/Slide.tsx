@@ -9,7 +9,14 @@ const Slide: React.FC<{
   const swiperSlide = useSwiperSlide();
   return (
     <div className={style.card}>
-      <Image src={img} alt="Слайд" width={686} height={691} />
+      <Image
+        src={img}
+        alt="Слайд"
+        quality={80}
+        width={686}
+        height={691}
+        loading="lazy"
+      />
     </div>
   );
 };

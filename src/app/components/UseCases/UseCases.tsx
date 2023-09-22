@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import style from './SeventhBlock.module.scss';
+import style from './UseCases.module.scss';
 import kidsOne from '../../../../public/kids1.jpeg';
 import kidsTwo from '../../../../public/kids2.png';
 
-const SeventhBlock = () => {
+const UseCases = () => {
   return (
     <section className={style.block}>
       <h2>Прогресс на службе специалистов</h2>
@@ -43,4 +43,4 @@ const SeventhBlock = () => {
   );
 };
 
-export default SeventhBlock;
+export default UseCases;

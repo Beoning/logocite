@@ -1,14 +1,14 @@
-import EighthBlock from './components/EighthBlock/EighthBlock';
-import FifthBlock from './components/FifthBlock/FifthBlock';
+import Form from './components/Form/Form';
+import Slider from './components/Slider/Slider';
 import WelcomeBlock from './components/WelcomeBlock/WelcomeBlock';
 import Footer from './components/Footer/Footer';
 import Employees from './components/Employees/Employees';
 import Header from './components/Header/Header';
-import NinthBlock from './components/NinethBlock/NinthBlock';
+import YandexMap from './components/YandexMap/YandexMap';
 import AdvantagesBlock from './components/AdvantagesBlock/AdvantagesBlock';
-import SeventhBlock from './components/SeventhBlock/SeventhBlock';
-import SixthBlock from './components/SixthBlock/SixthBlock';
-import TenthBlock from './components/TenthBlock/TenthBlock';
+import UseCases from './components/UseCases/UseCases';
+import SignTo from './components/SignTo/SignTo';
+import Addresses from './components/Addresses/Addresses';
 import AboutUsHeading from './components/AboutUsHeading/AboutUsHeading';
 
 const Page = () => {
@@ -20,12 +20,12 @@ const Page = () => {
         <AdvantagesBlock />
         <AboutUsHeading />
         <Employees />
-        <FifthBlock />
-        <SixthBlock />
-        <SeventhBlock />
-        <EighthBlock />
-        <NinthBlock />
-        <TenthBlock />
+        <Slider />
+        <SignTo />
+        <UseCases />
+        <Form />
+        <YandexMap />
+        <Addresses />
       </main>
       <Footer />
     </>

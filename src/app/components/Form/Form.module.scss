@@ -1,10 +1,6 @@
 .block {
   height: 736px;
-  background-image: url(../../../../public/formkid.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 20%;
-
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;

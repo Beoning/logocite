@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import style from './TenthBlock.module.scss';
+import style from './Addresses.module.scss';
 import metro from '../../../../public/metro.svg';
 
-const TenthBlock = () => {
+const Addresses = () => {
   return (
     <section className={style.block} id="contacts">
       <h2>ЛОГОПЕДЫ из CHICAGA</h2>
@@ -47,4 +47,4 @@ const TenthBlock = () => {
   );
 };
 
-export default TenthBlock;
+export default Addresses;

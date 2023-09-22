@@ -1,6 +1,6 @@
-import style from './ThirdBlock.module.scss';
+import style from './AboutUsHeading.module.scss';
 
-const ThirdBlock = () => {
+const AboutUsHeading = () => {
   return (
     <section className={style.block}>
       <h2>
@@ -14,4 +14,4 @@ const ThirdBlock = () => {
   );
 };
 
-export default ThirdBlock;
+export default AboutUsHeading;

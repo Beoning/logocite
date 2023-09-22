@@ -1,12 +1,12 @@
 import Image from 'next/image';
-import style from './FourthBlock.module.scss';
+import style from './Employees.module.scss';
 import olga from '../../../../public/olga.png';
 import angelina from '../../../../public/angelinavasilieva.png';
 import nadya from '../../../../public/nadya.png';
 import sveta from '../../../../public/sveta.png';
 import veronica from '../../../../public/veronica.png';
 
-const FourthBlock = () => {
+const Employees = () => {
   return (
     <section className={style.block} id="about">
       <section>
@@ -74,4 +74,4 @@ const FourthBlock = () => {
   );
 };
 
-export default FourthBlock;
+export default Employees;

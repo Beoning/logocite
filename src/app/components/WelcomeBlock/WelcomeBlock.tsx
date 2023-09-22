@@ -1,8 +1,21 @@
-import style from './FirstBlock.module.scss';
+import Image from 'next/image';
+import style from './WelcomeBlock.module.scss';
+import back from '../../../../public/firstblockback.png';
 
-const FirstBlock = () => {
+const WelcomeBlock = () => {
   return (
     <section className={style.block}>
+      <Image
+        src={back}
+        alt="Фон блока"
+        quality={100}
+        fill
+        sizes="100vw"
+        style={{
+          objectFit: 'cover',
+          zIndex: -1,
+        }}
+      />
       <h1>
         Современный <br /> центр <br /> Логопеды из <br /> CHIC<span>A</span>GA
       </h1>
@@ -27,4 +40,4 @@ const FirstBlock = () => {
   );
 };
 
-export default FirstBlock;
+export default WelcomeBlock;

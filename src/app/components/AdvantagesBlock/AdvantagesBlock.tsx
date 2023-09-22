@@ -1,18 +1,42 @@
-import style from './SecondBlock.module.scss';
+import Image from 'next/image';
+import style from './AdvantagesBlock.module.scss';
+import kid from '../../../../public/kid.png';
+import kidsInSchool from '../../../../public/kidsinschool.jpg';
+import smileykid from '../../../../public/smile.png';
 
-const SecondBlock = () => {
+const AdvantagesBlock = () => {
   return (
     <section className={style.block}>
       <div>
         <h2>Запуск речи для малышей</h2>
         <p>
-          Для ребёнка все занятия <br /> являются формой веселого <br />{' '}
+          Для ребёнка все занятия <br /> являются формой веселого <br />
           времяпрепровождения. <br />
           Дети с радостью бегут <br /> к нам на занятия
         </p>
       </div>
-      <div className={style.image} />
-      <div className={style.image} />
+      <div>
+        <Image
+          src={kid}
+          fill
+          sizes="100%"
+          style={{
+            objectFit: 'cover',
+          }}
+          alt="Малыш"
+        />
+      </div>
+      <div>
+        <Image
+          src={kidsInSchool}
+          fill
+          sizes="100%"
+          style={{
+            objectFit: 'cover',
+          }}
+          alt="Дети в школе"
+        />
+      </div>
       <div>
         <h2>Добрые, Отзывчивые Специалисты</h2>
         <p>
@@ -33,9 +57,19 @@ const SecondBlock = () => {
           желаемому результату
         </p>
       </div>
-      <div className={style.image} />
+      <div>
+        <Image
+          src={smileykid}
+          fill
+          sizes="100%"
+          style={{
+            objectFit: 'cover',
+          }}
+          alt="Улыбающаяся девочка"
+        />
+      </div>
     </section>
   );
 };
 
-export default SecondBlock;
+export default AdvantagesBlock;

@@ -1,25 +1,25 @@
 import EighthBlock from './components/EighthBlock/EighthBlock';
 import FifthBlock from './components/FifthBlock/FifthBlock';
-import FirstBlock from './components/FirstBlock/FirstBlock';
+import WelcomeBlock from './components/WelcomeBlock/WelcomeBlock';
 import Footer from './components/Footer/Footer';
-import FourthBlock from './components/FourthBlock/FourthBlock';
+import Employees from './components/Employees/Employees';
 import Header from './components/Header/Header';
 import NinthBlock from './components/NinethBlock/NinthBlock';
-import SecondBlock from './components/SecondBlock/SecondBlock';
+import AdvantagesBlock from './components/AdvantagesBlock/AdvantagesBlock';
 import SeventhBlock from './components/SeventhBlock/SeventhBlock';
 import SixthBlock from './components/SixthBlock/SixthBlock';
 import TenthBlock from './components/TenthBlock/TenthBlock';
-import ThirdBlock from './components/ThirdBlock/ThirdBlock';
+import AboutUsHeading from './components/AboutUsHeading/AboutUsHeading';
 
 const Page = () => {
   return (
     <>
       <Header />
       <main>
-        <FirstBlock />
-        <SecondBlock />
-        <ThirdBlock />
-        <FourthBlock />
+        <WelcomeBlock />
+        <AdvantagesBlock />
+        <AboutUsHeading />
+        <Employees />
         <FifthBlock />
         <SixthBlock />
         <SeventhBlock />

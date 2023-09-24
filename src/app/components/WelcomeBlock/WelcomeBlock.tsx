@@ -1,6 +1,10 @@
+'use client';
+
 import Image from 'next/image';
 import style from './WelcomeBlock.module.scss';
 import back from '../../../../public/firstblockback.png';
+
+import { motion } from 'framer-motion';
 
 const WelcomeBlock = () => {
   return (
@@ -16,10 +20,18 @@ const WelcomeBlock = () => {
           zIndex: -1,
         }}
       />
-      <h1>
+      <motion.h1
+        initial={{ opacity: 0, x: -100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ ease: 'easeOut', duration: 2 }}
+      >
         Современный <br /> центр <br /> Логопеды из <br /> CHIC<span>A</span>GA
-      </h1>
-      <section>
+      </motion.h1>
+      <motion.section
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ ease: 'easeOut', duration: 2 }}
+      >
         <p>
           Формируем{' '}
           <span>
@@ -35,7 +47,7 @@ const WelcomeBlock = () => {
         <p>
           ВСЕ ВИДЫ <br /> <span>ЛОГОПЕДИЧЕСКОГО МАССАЖА</span>
         </p>
-      </section>
+      </motion.section>
     </section>
   );
 };

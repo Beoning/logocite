@@ -18,9 +18,13 @@
     font-weight: 400;
   }
 
-  button {
+  a {
     width: 384px;
     height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     border-radius: 10px;
     background: #f4ac5b;
     outline: none;

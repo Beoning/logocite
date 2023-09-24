@@ -4,7 +4,7 @@ import formKid from '../../../../public/formkid.jpg';
 
 const Form = () => {
   return (
-    <section className={style.block}>
+    <section className={style.block} id="form">
       <Image
         src={formKid}
         fill

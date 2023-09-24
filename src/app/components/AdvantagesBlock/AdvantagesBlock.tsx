@@ -1,12 +1,20 @@
+'use client';
+
 import Image from 'next/image';
 import style from './AdvantagesBlock.module.scss';
 import kid from '../../../../public/kid.png';
 import kidsInSchool from '../../../../public/kidsinschool.jpg';
 import smileykid from '../../../../public/smile.png';
+import { motion } from 'framer-motion';
 
 const AdvantagesBlock = () => {
   return (
-    <section className={style.block}>
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ delay: 0.3 }}
+      className={style.block}
+    >
       <div>
         <h2>Запуск речи для малышей</h2>
         <p>
@@ -68,7 +76,7 @@ const AdvantagesBlock = () => {
           alt="Улыбающаяся девочка"
         />
       </div>
-    </section>
+    </motion.section>
   );
 };
 

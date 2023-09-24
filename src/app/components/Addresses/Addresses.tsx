@@ -4,7 +4,7 @@ import metro from '../../../../public/metro.svg';
 
 const Addresses = () => {
   return (
-    <section className={style.block} id="contacts">
+    <section className={style.block}>
       <h2>ЛОГОПЕДЫ из CHICAGA</h2>
       <p>Наши уютные мастерские находятся в 3-х минутах от метро</p>
       <section className={style.info}>

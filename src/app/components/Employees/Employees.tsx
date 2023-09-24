@@ -37,6 +37,7 @@ const Employees = () => {
         <div>
           <Image
             src={angelina}
+            quality={100}
             alt="Ангелина Васильева"
             width={267}
             height={317}
@@ -47,6 +48,7 @@ const Employees = () => {
         <div>
           <Image
             src={nadya}
+            quality={100}
             alt="Кузьминских Надежда"
             width={267}
             height={317}
@@ -55,13 +57,20 @@ const Employees = () => {
           <p>Логопед</p>
         </div>
         <div>
-          <Image src={sveta} alt="Тихонова Светлана" width={267} height={317} />
+          <Image
+            src={sveta}
+            quality={100}
+            alt="Тихонова Светлана"
+            width={267}
+            height={317}
+          />
           <span>Тихонова Светлана</span>
           <p>Логопед</p>
         </div>
         <div>
           <Image
             src={veronica}
+            quality={100}
             alt="Вероника Францева"
             width={267}
             height={317}

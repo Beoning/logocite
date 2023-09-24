@@ -22,7 +22,7 @@ const Footer = () => {
         </a>
       </section>
       <span>
-        Made by <a href="https://vk.com/beoning">@Beoning</a>
+        Разработчик <a href="https://vk.com/beoning">@Beoning</a>
       </span>
     </footer>
   );

@@ -38,3 +38,32 @@
     }
   }
 }
+
+@media screen and (width < 500px) {
+  .block {
+    gap: 40px;
+
+    h1 {
+      font-size: 24px;
+      font-weight: 400;
+      -webkit-text-stroke: 0px;
+
+      span {
+        color: #d42d31;
+      }
+    }
+
+    section {
+      gap: 50px;
+
+      p {
+        font-size: 14px;
+        font-weight: 400;
+
+        span {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

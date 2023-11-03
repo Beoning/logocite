@@ -10,6 +10,7 @@
   nav {
     display: flex;
     align-items: flex-start;
+    min-width: 360px;
     gap: 42px;
 
     div {
@@ -42,6 +43,32 @@
       color: #d42d31;
       font-size: 24px;
       font-weight: 700;
+    }
+  }
+}
+
+@media screen and (width < 500px) {
+  .header {
+    padding: 0 20px 0 20px;
+    margin-top: 28px;
+
+    nav {
+      gap: 12px;
+
+      div {
+        padding: 0 14px;
+        gap: 16px;
+
+        a {
+          font-size: 12px;
+        }
+      }
+
+      & > a {
+        padding: 4px 4px;
+        font-size: 12px;
+        height: auto;
+      }
     }
   }
 }

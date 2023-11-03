@@ -44,3 +44,16 @@
     }
   }
 }
+
+@media screen and (width < 500px) {
+  .form {
+    input {
+      width: 324px;
+      font-size: 22px;
+    }
+
+    button {
+      padding: 22px 27px;
+    }
+  }
+}

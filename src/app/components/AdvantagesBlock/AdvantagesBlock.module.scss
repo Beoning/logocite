@@ -24,3 +24,21 @@
     }
   }
 }
+
+@media screen and (width < 500px) {
+  .block {
+    div {
+      h2 {
+        font-size: 18px;
+        text-align: center;
+      }
+      p {
+        margin-top: 18px;
+        color: #7d7d7d;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}

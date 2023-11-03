@@ -30,3 +30,17 @@
     font-weight: 400;
   }
 }
+
+@media screen and (width < 500px) {
+  .block {
+    gap: 20px;
+
+    h2 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+}

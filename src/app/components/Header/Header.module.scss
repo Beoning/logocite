@@ -54,6 +54,10 @@
 
     nav {
       gap: 12px;
+      min-width: 260px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
       div {
         padding: 0 14px;

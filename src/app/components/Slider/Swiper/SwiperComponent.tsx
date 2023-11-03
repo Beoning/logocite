@@ -6,6 +6,7 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { FC } from 'react';
 import { StaticImageData } from 'next/image';
 import Slide from '../Slide/Slide';
+import { useSwiper } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -13,6 +14,8 @@ import 'swiper/css/navigation';
 const SwiperComponent: FC<{
   images: StaticImageData[];
 }> = ({ images }) => {
+  const swiper = useSwiper();
+
   return (
     <Swiper
       style={{

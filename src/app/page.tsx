@@ -1,4 +1,3 @@
-import Form from './components/Form/Form';
 import Slider from './components/Slider/Slider';
 import WelcomeBlock from './components/WelcomeBlock/WelcomeBlock';
 import Footer from './components/Footer/Footer';
@@ -10,6 +9,7 @@ import UseCases from './components/UseCases/UseCases';
 import SignTo from './components/SignTo/SignTo';
 import Addresses from './components/Addresses/Addresses';
 import AboutUsHeading from './components/AboutUsHeading/AboutUsHeading';
+import FormContainer from './components/Form/FormContainer/FormContainer';
 
 const Page = () => {
   return (
@@ -23,7 +23,7 @@ const Page = () => {
         <Slider />
         <SignTo />
         <UseCases />
-        <Form />
+        <FormContainer />
         <YandexMap />
         <Addresses />
       </main>

@@ -1,29 +1,38 @@
-import Image from 'next/image';
+'use client';
+
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 import style from './Form.module.scss';
-import formKid from '../../../../public/formkid.jpg';
 
 const Form = () => {
+  const form = useRef<HTMLFormElement>(null);
+
+  const sendEmail = (e: any) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'logoped_service',
+        'contactform_logoped',
+        form.current!,
+        'vQzrM4hn-5hZPoQOq'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
-    <section className={style.block} id="form">
-      <Image
-        src={formKid}
-        fill
-        sizes="100%"
-        quality={100}
-        style={{
-          objectFit: 'cover',
-          zIndex: -1,
-        }}
-        alt="Ребенок на оранжевом фоне"
-      />
-      <h2>
-        Всех настроим! <br />
-        Всех поправим!
-      </h2>
-      <input type="text" placeholder="Ваше имя" />
-      <input type="number" placeholder="Номер телефона" />
+    <form ref={form} className={style.form} onSubmit={sendEmail} id="form">
+      <input type="name" name="from_name" placeholder="Ваше имя" />
+      <input type="number" name="phone_number" placeholder="Номер телефона" />
       <button>Оставить заявку</button>
-    </section>
+    </form>
   );
 };
 

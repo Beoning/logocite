@@ -7,6 +7,7 @@ const Slide: React.FC<{
   img: StaticImageData;
 }> = ({ img }) => {
   const swiperSlide = useSwiperSlide();
+
   return (
     <div className={style.card}>
       <Image

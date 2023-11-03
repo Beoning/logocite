@@ -1,17 +1,6 @@
-.block {
-  height: 736px;
-  position: relative;
+.form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  h2 {
-    color: #fff;
-    font-size: 64px;
-    font-weight: 700;
-    margin-bottom: 54px;
-  }
 
   input[type='number']::-webkit-outer-spin-button,
   input[type='number']::-webkit-inner-spin-button {

@@ -15,7 +15,7 @@ const Employees = () => {
             className={style.img}
             src={olga}
             alt="Ольга Соколова"
-            width={500}
+            width={380}
             height={400}
           />
           <span>Ольга Соколова</span>

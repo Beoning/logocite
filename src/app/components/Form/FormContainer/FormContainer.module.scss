@@ -1,0 +1,15 @@
+.block {
+  height: 736px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 54px;
+  }
+}

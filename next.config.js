@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  env: {
+    emailKey: 'vQzrM4hn-5hZPoQOq',
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

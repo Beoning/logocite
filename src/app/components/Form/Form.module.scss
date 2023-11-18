@@ -1,6 +1,7 @@
 .form {
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   input[type='number']::-webkit-outer-spin-button,
   input[type='number']::-webkit-inner-spin-button {
@@ -33,7 +34,7 @@
     font-weight: 400;
     border-radius: 10px;
     background: #d42d31;
-    margin-top: 54px;
+    margin-top: 34px;
 
     &:hover {
       background: #d44042;
@@ -41,6 +42,24 @@
 
     &:active {
       background: #d5181c;
+    }
+  }
+
+  .response {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .disabled {
+    cursor: auto;
+    background: #bf7778;
+
+    &:hover {
+      background: #bf7778;
+    }
+
+    &:active {
+      background: #bf7778;
     }
   }
 }
